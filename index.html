@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Poetry Generator | Spoken Word Poet</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Spoken Word Poetry Generator</h1>
+    
+    <div class="controls">
+      <input type="text" id="themeInput" placeholder="Enter an emotion or theme">
+      <button id="generateBtn">Generate Poem</button>
+    </div>
+
+    <div class="poem-display" id="poemOutput"></div>
+
+    <div class="stitch-section">
+      <input type="text" id="stitchInput" placeholder="Add your own poetic line">
+      <button id="stitchBtn">Stitch Line</button>
+    </div>
+
+    <div class="speak-section">
+      <button id="speakBtn">🎤 Speak Poem</button>
+      <button id="stopBtn">🛑 Stop</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
